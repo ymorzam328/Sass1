@@ -1,5 +1,5 @@
 @import "variables";
-$fondo: #ff0000;
+$fondo: orange;
 $primer: #ce5555;
 $pcolor: #0000ff;
 body {
@@ -10,5 +10,12 @@ body {
   }
   p {
     color: $pcolor;
+  }
+
+  div {
+    border: 1px solid $otra;
+    p {
+      color: aqua;
+    }
   }
 }
