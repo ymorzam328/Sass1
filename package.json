@@ -4,7 +4,8 @@
   "description": "mi primer proyecto Sass",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch styles.scss  styles.css"
   },
   "keywords": [
     "sass"
